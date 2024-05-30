@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+    body{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        font-family: "Karla", sans-serif;
+        background-color: hsl(204, 43%, 93%);
+    }
+    
+    h1, h2, strong{
+        font-weight: 700;
+    }
+    
+    p, button, li{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    section.one{
+        display: grid;
+        grid-area: one;
+        background-color: white;
+    }
+    
+    section.two{
+        display: grid;
+        grid-area: two;
+        color: white;
+        background-color: hsl(179, 62%, 43%);
+        height: 270px;
+        
+    }
+    
+    section.three{
+    
+        display: grid;
+        grid-area: three;
+        color: white;
+        background-color: hsl(179, 62%, 45%);
+        height: 250px;
+    }
+    
+    
+    /* div.grid{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "one one one" 
+        "two two two" 
+        "three three three";
+        width: 200px;
+    } */
+    
+    main.content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "one one one" 
+        "two two two" 
+        "three three three";
+        width: 280px;
+    }
+    
+    
+    h1.one{
+        color: hsl(179, 62%, 43%);
+    }
+    
+    
+    h1{
+        font-size: 16px;
+        text-align: left;
+         
+    }
+    
+    
+    button{
+        display: grid;
+        width: 240px;
+        position: relative;
+        margin: 0 auto;
+        height: 40px;
+        background-color: hsl(71, 73%, 54%);
+        border: 2px solid transparent;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: 50px;
+        cursor: pointer;
+    
+    }
+    
+    h1, p, h2, button{
+    
+        position: relative;
+        margin-left: 20px;
+    }
+    
+    h2{
+        width: 250px;
+        font-size: 16px;
+        color:hsl(71, 73%, 54%);
+    }
+    
+    section.one p{
+        line-height: 25px;
+        width: 245px;
+        color: hsl(218, 22%, 67%);
+    }
+    
+    div.two{
+        display: flex;
+        flex-flow: column;
+        
+       
+    
+    }
+    strong{
+        font-size: 40px;
+        font-family: "Karla", sans-serif;
+        
+    }
+    div.two span{
+        position: relative;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    
+    div.two span p{
+        position: relative;
+        margin-left: 10px;
+    
+        
+    
+    }
+    
+    
+    ul{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        list-style-type: none;
+        position: relative;
+        margin-left: -20px;
+        line-height: 25px;
+        margin-top: -10;
+    }
+
+@media screen and (min-width: 1024px) {
+
+
+    body{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        font-family: "Karla", sans-serif;
+        background-color: hsl(204, 43%, 93%);
+    }
+    
+    h1, h2, strong{
+        font-weight: 700;
+    }
+    
+    p, button, li{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    section.one{
+        display: grid;
+        grid-area: one;
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: white;
+    }
+    
+    section.two{
+        display: grid;
+        grid-area: two;
+        color: white;
+        background-color: hsl(179, 62%, 43%);
+        height: 270px;
+        -webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-left-radius: 10px;
+        
+    }
+    
+    section.three{
+    
+        display: grid;
+        grid-area: three;
+        color: white;
+        background-color: hsl(179, 62%, 45%);
+        height: 270px;
+        -webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px;
+    }
+    
+    
+    /* div.grid{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "one one one" 
+        "two two two" 
+        "three three three";
+        width: 200px;
+    } */
+    
+    main.content{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "one one one one" 
+        "two two three three";
+        width: 1024px;
+    }
+    
+    
+    h1.one{
+        color: hsl(179, 62%, 43%);
+        font-size: 30px ;
+        position: relative;
+        margin-bottom: -10px;
+    }
+    
+    
+    /* h1{
+        font-size: 16px;
+        text-align: left;
+         
+    } */
+    
+    
+    button{
+        display: grid;
+        width: 240px;
+        position: relative;
+        margin: 0 auto;
+        height: 40px;
+        background-color: hsl(71, 73%, 54%);
+        border: 2px solid transparent;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: 50px;
+        cursor: pointer;
+    
+    }
+    
+    h1, p, h2, button{
+    
+        position: relative;
+        margin-left: 20px;
+    }
+    
+    h2{
+        width: 1024px;
+        font-size: 16px;
+        color:hsl(71, 73%, 54%);
+    }
+    
+    section.one p{
+        line-height: 25px;
+        width: 550px;
+        color: hsl(218, 22%, 67%);
+    }
+    
+    div.two{
+        display: flex;
+        flex-flow: column;
+        
+       
+    
+    }
+    strong{
+        font-size: 40px;
+        font-family: "Karla", sans-serif;
+        
+    }
+    div.two span{
+        position: relative;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    
+    div.two span p{
+        position: relative;
+        margin-left: 10px;
+    
+        
+    
+    }
+    
+    
+    ul{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        list-style-type: none;
+        position: relative;
+        margin-left: -20px;
+        line-height: 25px;
+        margin-top: -10;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
